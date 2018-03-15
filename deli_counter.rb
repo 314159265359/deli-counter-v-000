@@ -21,5 +21,6 @@ def take_a_number(line, person)
     puts "Welcome, #{person}. You are number 1 in line."
   else
     line << person
+    puts "Welcome, #{person}. You are number #{line.count} in line."
   end
 end
