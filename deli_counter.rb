@@ -19,5 +19,7 @@ def take_a_number(line, person)
   if line.count == 0
     line.push(person)
     puts "Welcome, #{person}. You are number 1 in line."
+  else
+    line << person
   end
 end
