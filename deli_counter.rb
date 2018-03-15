@@ -15,7 +15,7 @@ def line(line)
   end
 end
 
-def take_a_number(person)
+def take_a_number(line, person)
   #if line.count == 0
     line.push(person)
   #end
