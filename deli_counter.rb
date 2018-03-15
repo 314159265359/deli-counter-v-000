@@ -7,5 +7,6 @@ def line(line)
    line.each do |person|
      string << "#{counter}. #{person}"
    end
+   puts "#{string}"
  end
 end
