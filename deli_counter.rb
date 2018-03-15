@@ -1,5 +1,5 @@
 def line(line)
-  if line.count == 0
+  #if line.count == 0
     "The line is currently empty."
-  end
+  #end
 end
