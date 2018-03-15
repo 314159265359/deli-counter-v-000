@@ -2,13 +2,15 @@ def line(line)
   string = "The line is currently"
   if line.count == 0
     puts "#{string} empty."
-  else 
+  else
     string << ": "
    counter = 1
+   holder = line.pop
    line.each do |person|
-     string << "#{counter}. #{person}"
+     string << "#{counter}. #{person} "
      counter+=1
    end
+   string += "#{counter}. #{holder}"
    puts "#{string}"
  end
 end
