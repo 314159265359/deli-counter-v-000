@@ -4,13 +4,13 @@ def line(line)
     puts "#{string} empty."
   else
     string << ": "
-   counter = 1
-   holder = line.pop
-   line.each do |person|
-     string << "#{counter}. #{person} "
-     counter+=1
-   end
-   string += "#{counter}. #{holder}"
-   puts "#{string}"
- end
+    counter = 1
+    holder = line.pop
+    line.each do |person|
+      string << "#{counter}. #{person} "
+      counter+=1
+    end
+    string += "#{counter}. #{holder}"
+    puts "#{string}"
+  end
 end
