@@ -14,3 +14,5 @@ def line(line)
     puts "#{string}"
   end
 end
+
+def take_a_number(line)
