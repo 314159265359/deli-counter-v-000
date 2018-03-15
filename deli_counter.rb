@@ -15,6 +15,7 @@ def line(line)
   end
 end
 
+
 def take_a_number(line, person)
   if line.count == 0
     line.push(person)
@@ -24,6 +25,7 @@ def take_a_number(line, person)
     puts "Welcome, #{person}. You are number #{line.count} in line."
   end
 end
+
 
 def now_serving(line)
   if line.count == 0
